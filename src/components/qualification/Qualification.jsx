@@ -34,13 +34,13 @@ export const Qualification = () => {
             </div>
 
             <div className="qualification__sections">
-                {/* ========= Qualification content ========= */}
+                {/* ========= Qualification content EDUCATION ========= */}
                 <div className={`${ qualification === 1 && 'qualification__content-active'} qualification__content` }>
                     {/* Qualification data */}
                     <div className="qualification__data">
                         <div>
                             <h3 className="qualification__title">Information technology</h3>
-                            <span className="qualifiction__subtitle">CUCEA - universidad</span>
+                            <span className="qualifiction__subtitle">CUCEA - university</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i>
                                 2018 - present
@@ -63,11 +63,11 @@ export const Qualification = () => {
                         </div>
 
                         <div>
-                            <h3 className="qualification__title">Web deveoper</h3>
+                            <h3 className="qualification__title">Web developer</h3>
                             <span className="qualifiction__subtitle">Platzi</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i>
-                                2020 - present
+                                2022 - present
                             </div>
                         </div>
                     </div>
