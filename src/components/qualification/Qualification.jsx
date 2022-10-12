@@ -72,40 +72,21 @@ export const Qualification = () => {
                         </div>
                     </div>
 
-                    {/* Qualification data */}
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Information technology</h3>
-                            <span className="qualifiction__subtitle">CUCEA - universidad</span>
-                            <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i>
-                                2018 - present
-                            </div>
-                        </div>
-
-                        <div>
-                            <span className="qualification__rounder"></span>
-                            <span className="qualification__line"></span>
-                        </div>
-                        <div></div>
-                    </div>
-
-                    {/* Qualification data */}
-                    <div className="qualification__data">
-                        <div></div>
-                        <div>
-                            <span className="qualification__rounder"></span>
-                            <span className="qualification__line"></span>
-                        </div>
-
-                        <div>
-                            <h3 className="qualification__title">Web deveoper</h3>
+                            <h3 className="qualification__title">Project manager</h3>
                             <span className="qualifiction__subtitle">Platzi</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i>
-                                2020 - present
+                                2022 - present
                             </div>
                         </div>
+
+                        <div>
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
+                        </div>
+                        <div></div>
                     </div>
 
                 </div>
@@ -115,7 +96,7 @@ export const Qualification = () => {
                     {/* Qualification data */}
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Programmer on excel</h3>
+                            <h3 className="qualification__title">Excel Programmer on </h3>
                             <span className="qualifiction__subtitle">Jaliscoadventours</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i>
@@ -139,44 +120,8 @@ export const Qualification = () => {
                         </div>
 
                         <div>
-                            <h3 className="qualification__title">Web deveoper</h3>
-                            <span className="qualifiction__subtitle">Platzi</span>
-                            <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i>
-                                2020 - present
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Qualification data */}
-                    <div className="qualification__data">
-                        <div>
-                            <h3 className="qualification__title">Information technology</h3>
-                            <span className="qualifiction__subtitle">CUCEA - universidad</span>
-                            <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i>
-                                2018 - present
-                            </div>
-                        </div>
-
-                        <div>
-                            <span className="qualification__rounder"></span>
-                            <span className="qualification__line"></span>
-                        </div>
-                        <div></div>
-                    </div>
-
-                    {/* Qualification data */}
-                    <div className="qualification__data">
-                        <div></div>
-                        <div>
-                            <span className="qualification__rounder"></span>
-                            <span className="qualification__line"></span>
-                        </div>
-
-                        <div>
-                            <h3 className="qualification__title">Web deveoper</h3>
-                            <span className="qualifiction__subtitle">Platzi</span>
+                            <h3 className="qualification__title">Web developer</h3>
+                            <span className="qualifiction__subtitle">Own projects</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i>
                                 2020 - present

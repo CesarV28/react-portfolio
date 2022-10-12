@@ -1,8 +1,8 @@
 
 import './about.css';
 
-import AboutImg from '../../assets/about.jpg';
-import CV from '../../assets/John-Cv.pdf'
+import AboutImg from '../../assets/about.png';
+import CV from '../../assets/CesarVargas-CV.pdf'
 import { Info } from './Info';
 
 export const About = () => {
@@ -16,9 +16,11 @@ export const About = () => {
             <div className="about__data">
                 <Info/>
                 <p className="about__description">
-                Sobre mi 
-                conocimiento en programación: HTML, CSS, JavaScript, 
-                Python, NodeJs, PHP, bases de datos como; mongoDB y MySql. 
+                    Responsible,self-taught, empathic, proactive. I am passionate about what I like, I am interested
+                    much in the area of ​​technology, Web development, data analysis or resolution
+                    of problems using technology, so I am looking for a position that
+                    test my knowledge and contribute to solve problems. I enjoy
+                    learn new things, play video games, watch a series or go for walks.
                 </p>
 
                 <a download="" href={CV} className="button button--flex">

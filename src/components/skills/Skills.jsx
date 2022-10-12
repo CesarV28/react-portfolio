@@ -1,6 +1,7 @@
 
 import { Backend } from './Backend';
 import { Frontend } from './Frontend';
+import { ProjectManager } from './ProjectManager';
 import './skills.css';
 
 export const Skills = () => {
@@ -13,6 +14,8 @@ export const Skills = () => {
             <Frontend/>
 
             <Backend/>
+
+            <ProjectManager/>
         </div>
     </section>
   )

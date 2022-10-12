@@ -58,7 +58,7 @@ export const Data = () => {
             Frontend React Js
         </h3>
         <p className="home__description">
-            I am a frontend React developer form México, if you have an idea, I will make it into code.
+            I have a degree in information technology, specialized in management and frontend development with ReactJs
         </p>
         <a href="#contact" className="button button--flex">
             Say hello

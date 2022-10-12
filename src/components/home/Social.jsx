@@ -3,7 +3,7 @@ export const Social = () => {
   return (
     <div className="home__social">
         {/* Social item */}
-        <a href="www.linkedin.com/in/cesar-omar-vargas-gutierrez-523494199" className="home__social-icon" target={"_blank"}>
+        <a href="https://www.linkedin.com/in/varcesar/" className="home__social-icon" target={"_blank"}>
             <i className="uil uil-linkedin"></i>
         </a>
         {/* Social item */}

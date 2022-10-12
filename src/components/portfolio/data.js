@@ -1,8 +1,9 @@
-import Project1 from '../../assets/work1.jpg';
-import Project2 from '../../assets/work2.jpg';
-import Project3 from '../../assets/work3.jpg';
-import Project4 from '../../assets/work4.jpg';
-import Project5 from '../../assets/work5.jpg';
+import Project1 from '../../assets/work1.png';
+import Project2 from '../../assets/work2.png';
+import Project3 from '../../assets/work3.png';
+import Project4 from '../../assets/work4.png';
+import Project5 from '../../assets/work5.png';
+
 
 export const projectsData = [
     {
@@ -31,7 +32,7 @@ export const projectsData = [
         image: Project4,
         title: 'Rest server Café',
         category: 'backend',
-        url: ''
+        url: 'https://github.com/CesarV28/Basic-Node-Backend'
     },
     {
         id: 5,

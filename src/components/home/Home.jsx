@@ -2,6 +2,7 @@
 import { Social } from './Social';
 import { Data } from './Data';
 
+import Profile from '../../assets/profile.png';
 import './home.css';
 import { ScrollDown } from './ScrollDown';
 
@@ -15,7 +16,6 @@ export const Home = () => {
                 <Social/>
 
                 <div className="home__img">
-                    
                 </div>
                 <Data/>
             </div>
