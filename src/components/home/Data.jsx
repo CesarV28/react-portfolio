@@ -55,10 +55,10 @@ export const Data = () => {
             </svg>
         </h1>
         <h3 className="home__subtitle">
-            Frontend React Js
+            Bachelor's Degree in Information technology
         </h3>
         <p className="home__description">
-            I have a degree in information technology, specialized in management and frontend development with ReactJs
+            I am studying information technology, I am specialized in management and frontend development with ReactJs
         </p>
         <a href="#contact" className="button button--flex">
             Say hello

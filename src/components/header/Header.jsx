@@ -1,4 +1,15 @@
 import { useState } from 'react';
+import { 
+    AiOutlineAppstore, 
+    AiOutlineHome, 
+    AiOutlineUser, 
+    AiOutlineFileText, 
+    AiOutlineSend,
+    AiOutlineClose
+} from 'react-icons/ai'
+
+import { BiMailSend, BiImage, BiBriefcaseAlt2 } from 'react-icons/bi';
+
 import './header.css';
 
 export const Header = () => {
@@ -29,7 +40,7 @@ export const Header = () => {
                                 className={`${ activeNav === '#home' && 'active__link'} nav__link`}
                                 onClick={ () => onActive('#home')}
                             >
-                                <i className="uil uil-estate nav__icon"></i>
+                                <AiOutlineHome className='nav__icon'/>
                                 Home
                             </a>
                         </li>
@@ -40,7 +51,7 @@ export const Header = () => {
                                 className={`${ activeNav === '#about' && 'active__link'} nav__link`}
                                 onClick={ () => onActive('#about')}
                             >
-                                <i className="uil uil-user nav__icon"></i>
+                                <AiOutlineUser className='nav__icon'/>
                                 About
                             </a>
                         </li>
@@ -51,7 +62,7 @@ export const Header = () => {
                                 className={`${ activeNav === '#skills' && 'active__link'} nav__link`}
                                 onClick={ () => onActive('#skills')}
                             >
-                                <i className="uil uil-file-alt nav__icon"></i>
+                                <AiOutlineFileText className='nav__icon'/>
                                 Skills
                             </a>
                         </li>
@@ -62,7 +73,7 @@ export const Header = () => {
                                 className={`${ activeNav === '#services' && 'active__link'} nav__link`}
                                 onClick={ () => onActive('#services')}
                             >
-                                <i className="uil uil-briefcase-alt nav__icon"></i>
+                                <BiBriefcaseAlt2 className='nav__icon'/>
                                 Services
                             </a>
                         </li>
@@ -73,7 +84,7 @@ export const Header = () => {
                                 className={`${ activeNav === '#portfolio' && 'active__link'} nav__link`}
                                 onClick={ () => onActive('#portfolio')}
                             >
-                                <i className="uil uil-scenery nav__icon"></i>
+                                <BiImage className='nav__icon'/>
                                 Porfolio
                             </a>
                         </li>
@@ -84,23 +95,23 @@ export const Header = () => {
                                 className={`${ activeNav === '#contact' && 'active__link'} nav__link`}
                                 onClick={ () => onActive('#contact')}
                             >
-                                <i className="uil uil-message nav__icon"></i>
+                                <AiOutlineSend className='nav__icon'/>
                                 Contact
                             </a>
                         </li>
                     </ul>
 
-                    <i 
-                        className='uil uil-times nav__close'
+                    <AiOutlineClose
+                        className='nav__close'
                         onClick={showMenu}
-                    ></i>
+                    />
                 </div>
 
                 <div 
                     className="nav__toggle"
                     onClick={showMenu}
                 >
-                    <i className='uil uil-apps'></i>
+                    <AiOutlineAppstore className='nav__icon'/>
                 </div>
             </nav>
         </header>

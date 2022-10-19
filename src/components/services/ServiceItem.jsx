@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { useEffect } from "react";
 
+import { AiOutlineCheckCircle } from 'react-icons/ai'
+
 
 export const ServiceItem = ({itemIndex, serviceOf, toggle, onToggleTap, setToggle }) => {
     
@@ -47,7 +49,7 @@ export const ServiceItem = ({itemIndex, serviceOf, toggle, onToggleTap, setToggl
                     {/* li services modal item */}
                     {offer?.list.map( (item, index) => (
                         <li key={index} className="services__modal-service">
-                            <i className="uil uil-check-circle services__modal-icon"></i>
+                            <AiOutlineCheckCircle className="services__modal-icon"/>
                             <p className="services__modal-info">
                                 { item }
                             </p>

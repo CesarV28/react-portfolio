@@ -1,6 +1,8 @@
 
 import './contact.css';
 
+const sendEmail = 'mailto:CesarVargas27@outlook.com';
+
 export const Contact = () => {
   return (
     <section className="contact section" id="contact">
@@ -16,7 +18,7 @@ export const Contact = () => {
                         <i className="bx bx-mail-send contact__card-icon"></i>
                         <h3 className="contact__card-title">Email</h3>
                         <span className="contact__card-data">CesarVargas27@outlook.com</span>
-                        <a href="" className="contact__button">
+                        <a href={sendEmail} className="contact__button" target={'_blank'}>
                             Write me
                             <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                         </a>
@@ -30,7 +32,7 @@ export const Contact = () => {
                         <h3 className="contact__card-title">Phone number</h3>
                         <span className="contact__card-data">+52 317-119-9324</span>
 
-                        <a href="" className="contact__button">
+                        <a href="https://wa.me/3171199324" className="contact__button" target={'_blank'}>
                             Write me
                             <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                         </a>
@@ -44,7 +46,7 @@ export const Contact = () => {
                         <h3 className="contact__card-title">Other</h3>
                         <span className="contact__card-data">Other contact</span>
 
-                        <a href="" className="contact__button">
+                        <a href="https://twitter.com/CesarV_28" className="contact__button" target={'_blank'}>
                             Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                         </a>
                     </div>

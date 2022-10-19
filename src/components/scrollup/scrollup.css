@@ -1,7 +1,7 @@
 .scrollup{
     position: fixed;
-    right: 2.5rem;
-    bottom: 3rem;
+    right: 3.5rem;
+    bottom: 4rem;
     background-color: var(--title-color);
     opacity: 0.8;
     padding: 0.3rem 0.5rem;
@@ -15,7 +15,7 @@
     color: var(--container-color);
 }
 
-.scrollup__icon:hover{
+.scrollup:hover{
     background-color: var(--title-color-dark);
 }
 

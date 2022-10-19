@@ -37,7 +37,7 @@ export const projectsData = [
     {
         id: 5,
         image: Project5,
-        title: 'journal app',
+        title: 'Journal app',
         category: 'frontend',
         url: 'https://www.linkedin.com/posts/varcesar_tengo-mi-repositorio-de-github-con-mis-proyectos-activity-6961534157004955648-Cuse?utm_source=share&utm_medium=member_desktop'
     },

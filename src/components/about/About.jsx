@@ -16,7 +16,7 @@ export const About = () => {
             <div className="about__data">
                 <Info/>
                 <p className="about__description">
-                    Responsible,self-taught, empathic, proactive. I am passionate about what I like, I am interested
+                    Responsible, self-taught, empathic, proactive. I am passionate about what I like, I am interested
                     much in the area of ​​technology, Web development, data analysis or resolution
                     of problems using technology, so I am looking for a position that
                     test my knowledge and contribute to solve problems. I enjoy

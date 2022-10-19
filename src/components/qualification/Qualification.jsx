@@ -1,5 +1,8 @@
 
 import { useState } from 'react';
+import { FaGraduationCap } from 'react-icons/fa';
+import { BiBriefcaseAlt2 } from 'react-icons/bi';
+
 import './qualification.css';
 
 export const Qualification = () => {
@@ -21,14 +24,14 @@ export const Qualification = () => {
                     className={`${qualification === 1 && 'qualification__active'} qualification__button button--flex`}
                     onClick={() => onQualification(1)}
                 >
-                    <i className="uil uil-graduation-cap qualification__icon"></i>
+                    <FaGraduationCap className='qualification__icon' />
                     Education
                 </div>
                 <div 
                     className={`${qualification === 2 && 'qualification__active'} qualification__button button--flex`}
                     onClick={() => onQualification(2)}
                 >
-                    <i className="uil uil-briefcase-alt qualification__icon"></i>
+                    <BiBriefcaseAlt2 className='qualification__icon' />
                     Experience
                 </div>
             </div>
