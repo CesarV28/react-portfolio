@@ -46,7 +46,7 @@ export const Qualification = () => {
                             <span className="qualifiction__subtitle">CUCEA - university</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i>
-                                2018 - present
+                                2018 - 2022
                             </div>
                         </div>
 

@@ -8,7 +8,7 @@ import {
     AiOutlineClose
 } from 'react-icons/ai'
 
-import { BiMailSend, BiImage, BiBriefcaseAlt2 } from 'react-icons/bi';
+import { BiImage, BiBriefcaseAlt2 } from 'react-icons/bi';
 
 import './header.css';
 

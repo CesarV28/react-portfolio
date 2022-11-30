@@ -9,6 +9,8 @@
     --title-color: hsl(var(--hue), var(--sat), 20%);
     --title-color-dark: hsl(var(--hue), var(--sat), 0%);
     --text-color: hsl(var(--hue), var(--sat), 46%);
+    --text-color-white: hsl(var(--hue), var(--sat), 98%);
+    --text-color-white-dark: hsl(var(--hue), var(--sat), 80%);
     --body-color: hsl(var(--hue), var(--sat), 98%);
     --secondary-color: #004687;
     --container-color: #fff;
@@ -159,6 +161,7 @@ img{
 
 .button__icon{
     margin-left: var(--mb-0-5);
+    font-size: var(--h2-font-size);
 }
 
 .button--flex{
